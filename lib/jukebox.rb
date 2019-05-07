@@ -22,7 +22,6 @@ end
 
 def list(songs)
   number = 0
- #binding.pry
   songs.each{|title| puts "#{number+=1} #{title}"}
 end
 
